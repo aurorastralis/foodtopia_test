@@ -28,8 +28,8 @@
 }
 
 /******** CARD DECK STYLING *******/
-.category-pic {
-  width: 50%;
+.card {
+  border: none;
 }
 
 /******** FOOTER STYLING *******/
