@@ -1,4 +1,4 @@
-/*********************** FOODTOPIA INDEX.HTML CSS3 FILE ********************/
+/****************** FOODTOPIA INDEX.HTML CSS3 FILE ********************/
 /* STYLED BY AURORA WIDAWATI AND EZGI AKSAKAL */
 /* UNIVERSITY OF BATH, MARCH 2019 */
 
@@ -8,4 +8,16 @@
   background:rgb(206,10,49); # IE9 BACKUP
   color: rgba(255, 255, 255, 1);
   color: rgb(255, 255, 255); # IE9 BACKUP
+}
+
+/* Styling links in top navbar */
+.navbar a:link, a:visited, a:hover, a:active {
+  color:rgb(255,255,255);
+  text-decoration: none;
+}
+
+/******** HEADER STYLING *******/
+.display-4 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
