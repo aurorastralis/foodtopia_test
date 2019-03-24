@@ -4,6 +4,7 @@
 
 /***** GENERAL TEXT FONT *****/
 body {
+  background:#fff;
   font-family: Source Sans Pro;
 }
 
@@ -35,8 +36,19 @@ body {
 /******** CARD DECK STYLING *******/
 .card {
   border: none;
+  border-bottom: 4vh #fff solid;
 }
 
+.card .card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.card:hover .card-body {
+  opacity: 1;
+}
 /******** FOOTER STYLING *******/
 .foottopia {
   margin-bottom: 0px;
