@@ -40,14 +40,7 @@ body {
 }
 
 .card .card-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.card:hover .card-body {
-  opacity: 1;
+  display: none
 }
 /******** FOOTER STYLING *******/
 .foottopia {
