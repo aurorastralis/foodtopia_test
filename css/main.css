@@ -2,6 +2,11 @@
 /* STYLED BY AURORA WIDAWATI AND EZGI AKSAKAL */
 /* UNIVERSITY OF BATH, MARCH 2019 */
 
+/***** GENERAL TEXT FONT *****/
+body {
+  font-family: Source Sans Pro;
+}
+
 /****** NAVBAR STYLING *****/
 .top-navbar {
   background:rgba(206,10,49,1);
@@ -18,7 +23,7 @@
 }
 
 /******** HEADER STYLING *******/
-.display-4 {
+.display-2, .display-4 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   margin-top: 1rem;
