@@ -23,5 +23,13 @@
   text-align: center;
   margin-top: 1rem;
 }
+.headtopia {
+  text-align: justify;
+}
 
 /******** CARD DECK STYLING *******/
+
+/******** FOOTER STYLING *******/
+.foottopia {
+  margin-bottom: 0px;
+}
